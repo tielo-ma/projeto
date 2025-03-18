@@ -33,3 +33,16 @@ nav ul li a:hover {
     border-bottom: 0.1rem solid;
     font-size: 1.5rem;
 }
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.servico {
+    margin: 20px 0;
+    padding: 5px;
+    border: 1px solid #1b37e9;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
