@@ -1,0 +1,35 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+    color: aliceblue;
+    padding: 10px 0;
+    text-align: center;
+}   
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+/* aqui estou definindo que o meu nav ira ficar  lado a lado, antes estava um sobre o outro, tomando muito espaço no site */
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: red;
+    transition: color 1s ease;
+    border-bottom: 0.1rem solid;
+    font-size: 1.5rem;
+}
