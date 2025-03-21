@@ -91,3 +91,15 @@ section {
     color: red;
 }
 
+.avaliacao .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.avaliacao .box-container .box {
+    flex: 1 1 calc(33.333% - 1.5rem);
+    max-width: calc(33.333% - 1.5rem);
+    
+}
