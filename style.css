@@ -46,3 +46,13 @@ section {
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.servico:hover {
+    background-color: #f4a261;
+    color:white;
+}
+
+.box:hover {
+    background-color: #f4a261;
+    color:white;
+}
