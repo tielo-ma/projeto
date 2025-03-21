@@ -37,12 +37,13 @@ nav ul li a:hover {
 section {
     padding: 20px;
     text-align: center;
+    
 }
 
 .servico {
     margin: 20px 0;
     padding: 5px;
-    border: 1px solid #1b37e9;
+    border: 1px solid #ffffff;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -56,3 +57,37 @@ section {
     background-color: #f4a261;
     color:white;
 }
+/* nesse bloco abaixo ja consegui deixar o menu dos serviços premium mais organizado, agora irei trabalhar os estilos e adicionar efeitos */
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.menu .box-container .box {
+    text-align: center;
+    border: 0.1rem solid rgba(255, 255, 255, 0.3);
+    padding: 5rem;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.menu .box-container .box h3 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .preco {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+
+.menu .box-container .box .preco span {
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+    color: red;
+}
+
