@@ -90,7 +90,7 @@ section {
     font-weight: lighter;
     color: red;
 }
-
+/* estilização dos comentários */
 .avaliacao .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -101,5 +101,38 @@ section {
 .avaliacao .box-container .box {
     flex: 1 1 calc(33.333% - 1.5rem);
     max-width: calc(33.333% - 1.5rem);
-    
+    border: 0.1rem solid;
+    text-align: center;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.avaliacao .box-container .box p {
+    font-size: 1.5rem;
+    color: black;
+    padding: 2rem 0;
+    line-height: 1.8;
+    max-width: 500px;
+    text-align: center;
+
+}
+
+.avaliacao .box-container .box h3 {
+    color: black;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.avaliacao .box-container .box .user {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.avaliacao .box-container .box .card {
+    height: 50px;
+    max-width: 100%;
 }
